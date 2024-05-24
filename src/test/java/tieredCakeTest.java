@@ -17,7 +17,7 @@ public class tieredCakeTest {
             assertEquals("So many candles", tieredCake.partyMessage(), "Should return 'So many candles' for a cake with 3 tiers");
 
             tieredCake.setNumberOfTiers(1);
-            assertEquals("Happy Birthday ", tieredCake.partyMessage(), "Should return 'Happy Birthday' for a cake with 1 tier");
+            assertEquals("Happy Birthday", tieredCake.partyMessage(), "Should return 'Happy Birthday' for a cake with 1 tier");
         }
 
         @Test
@@ -40,4 +40,4 @@ public class tieredCakeTest {
 
 
 
-}
+

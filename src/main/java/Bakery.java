@@ -2,21 +2,17 @@ import java.util.ArrayList;
 
 public class Bakery {
 
-    //the abstract class
-
-    //properties
+    // properties
     public String name;
-    public ArrayList<Cakes>stock;
+    public ArrayList<Cakes> stock;
 
-
-    //constructor
+    // constructor
     public Bakery(String name){
-       this.name = name;
-       this.stock = stock;
+        this.name = name;
+        this.stock = new ArrayList<>();
     }
 
-
-    //methods
+    // methods
     public String buyCake(){
         return "You have bought a cake";
     }
@@ -24,6 +20,4 @@ public class Bakery {
     public String hasStock(){
         return "This cake is available";
     }
-
-
 }

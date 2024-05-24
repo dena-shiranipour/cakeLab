@@ -1,6 +1,6 @@
 public class trayBakes {
 
-    public class Traybake extends Cakes {
+    public static class Traybake extends Cakes {
         // property
         private int numberOfServings;
 

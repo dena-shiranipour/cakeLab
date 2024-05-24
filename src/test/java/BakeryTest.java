@@ -1,4 +1,5 @@
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
@@ -7,6 +8,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BakeryTest {
     private Bakery bakery;
 
+    @BeforeEach
     public void setUp() {
         bakery = new Bakery("Best Bakery");
     }
